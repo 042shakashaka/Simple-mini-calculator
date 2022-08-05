@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.MainContainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    border: solid black;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 70px;
+    padding-top: 30px;
+    background-image: url(./Calconent/Calcpix.jpeg);
+    background-size: contain;
+}
+
+.wrapper {
+    width: 90%;
+    height: 45vh;
+    border: solid black;
+    word-wrap: break-word;
+}
+
+.main-screen {
+    max-width: 100%;
+    height: 50px;
+    border: solid black;
+    overflow: hidden;
+    grid-column: 1/-1;
+    justify-content: center;
+    background-color: aqua;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+
+/* .screen {
+    border: solid black;
+    max-width: 90%;
+    height: 60px;
+    word-wrap: break-word;
+    background: white;
+    text-align: right;
+} */
+
+.botton-container {
+    padding-top: 60px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    display: grid;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.btn {
+    word-wrap: break-word;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: blue;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    word-wrap: break-word;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: aqua;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn-gray {
+    word-wrap: break-word;
+    padding-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background: gray;
+    color: black;
+    cursor: pointer;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-gray:hover {
+    word-wrap: break-word;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: maroon;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn-orange {
+    word-wrap: break-word;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background: orange;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn-orange:hover {
+    word-wrap: break-word;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: green;
+    color: black;
+    padding-top: 5px;
+    cursor: pointer;
+}
